@@ -1,3 +1,11 @@
+# Twitter Clone
+This is a FUll Stack project build using React.Js and Firebase.
+
+
+![image](https://github.com/Sayak007/twitter-clone/blob/master/twitter-clone1.jpg)
+
+![image](https://github.com/Sayak007/twitter-clone/blob/master/twitter-clone2.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
