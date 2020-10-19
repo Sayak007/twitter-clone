@@ -1,0 +1,40 @@
+body {
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+  
+.landing {
+    height: fit-content;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button{
+	border: #666;
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	background-color: #aaa;
+	color: #eaeaea;
+}
+.twitterIcon {
+    color: var(--twitter-color);
+    font-size: 50px !important;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
+.inp{
+    border: #666;
+	border-radius: 20px;
+	padding: 0.5em 1em;
+	background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 87%;
+    height: 30px;
+    margin: 10px;
+    outline: none;
+}
