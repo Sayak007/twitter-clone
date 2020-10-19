@@ -1,5 +1,6 @@
 # Twitter Clone
 This is a FUll Stack project build using React.Js and Firebase.
+[CLICK HERE TO GO TO THE APP](https://twitter-clone-dd1e1.web.app/)
 
 
 ![image](https://github.com/Sayak007/twitter-clone/blob/master/twitter-clone1.jpg)
