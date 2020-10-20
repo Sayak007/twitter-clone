@@ -10,4 +10,5 @@ function SidebarOption({ active, text, Icon }) {
   );
 }
 
+
 export default SidebarOption;

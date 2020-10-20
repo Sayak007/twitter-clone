@@ -18,7 +18,13 @@ class App extends Component {
 
   componentDidMount() {
     this.authListener();
+    window.addEventListener('resize', this.resize);
   }
+  componentWillUnmount() {
+      window.removeEventListener('resize', this.resize);
+  }
+
+  resize = () => this.forceUpdate();
 
   authListener() {
     Fire.auth().onAuthStateChanged((user) => {

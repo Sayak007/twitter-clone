@@ -6,7 +6,7 @@ body {
 .home {
   display: flex;
   height: 100vh;
-  max-width: 1300px;
+  max-width: 1200;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
