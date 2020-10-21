@@ -22,13 +22,13 @@ const styles = StyleSheet.create({
       cursor: 'pointer',
       position: 'absolute',
       left: 24,
-      top: 34,
+      top: 17,
       zIndex:1000,
   },
   container: {
       backgroundColor: '#fff',
       width: "fit-content",
-      paddingTop: 32,
+      padding: 20,
       height: 'calc(100% - 32px)'
   },
   containerMobile: {
@@ -105,7 +105,7 @@ function Sidebar({ onChange, selectedItem })  {
   };
 
     return (
-        <div className="sidebar" style={{ position: 'relative' }} >;
+        <div className="sidebar" style={{ position: 'relative' }} >
           <Row componentRef={element => (input1.current = element)} className={css(styles.mainContainer)} breakpoints={{768: css(styles.mainContainerMobile,expanded && styles.mainContainerExpanded)}}>
             {isMobile && !expanded && renderBurger()}
             <Column className={css(styles.container)} breakpoints={{768: css(styles.containerMobile,expanded ? styles.show : styles.hide)}}>
